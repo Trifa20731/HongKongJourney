@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cantonese_list_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/inner_item_padding">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cantonese_item_canto_trans_text_view"
+            style="@style/highlight_title_black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/inner_item_padding"
+            android:text="@string/default_cantonese_string" />
+
+        <TextView
+            android:id="@+id/cantonese_item_english_trans_text_view"
+            style="@style/highlight_subtitle_black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/inner_item_padding"
+            android:text="@string/default_english_string" />
+
+    </LinearLayout>
+
+</LinearLayout>

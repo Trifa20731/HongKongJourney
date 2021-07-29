@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".control.LogInActivity">
+
+    <ImageView
+        android:id="@+id/log_in_background_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sebastien_goldberg_log_in_background"
+        android:contentDescription="@string/log_in_page_image_des" />
+
+    <TextView
+        android:id="@+id/app_title"
+        style="@style/highlight_title_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/base_item_margin"
+        android:text="@string/log_in_page_hong_kong_journey" />
+
+    <TextView
+        android:id="@+id/app_sub_title"
+        style="@style/highlight_subtitle_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_title"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/base_item_margin"
+        android:gravity="center"
+        android:text="@string/log_in_page_subtitle" />
+
+
+    <LinearLayout
+        android:id="@+id/buttons_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/log_in_button"
+            style="@style/round_button_function"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/base_item_margin"
+            android:layout_weight="1"
+            android:padding="@dimen/base_item_padding"
+            android:text="@string/sign_up_button_label" />
+
+        <Button
+            android:id="@+id/skip_button"
+            style="@style/round_button_function"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/base_item_margin"
+            android:layout_weight="1"
+            android:padding="@dimen/base_item_padding"
+            android:text="@string/skip_button_label" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/split_bar_height"
+        android:layout_above="@id/buttons_linear_layout"
+        android:background="@color/gray" />
+
+</RelativeLayout>

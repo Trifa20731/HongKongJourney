@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">HongKongJourney</string>
+
+    <!--log in page string-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_up_button_label">SIGN UP</string>
+    <string name="skip_button_label">SKIP</string>
+    <string name="log_in_page_image_des">The background of the log-in page</string>
+    <string name="log_in_page_hong_kong_journey">Hong Kong Journey</string>
+    <string name="log_in_page_subtitle">Discover Beautiful Hong Kong before 2013</string>
+    <!--log in page string-->
+
+    <!--main page string-->
+    <string name="main_page_title">Get Ready For The Travel Trip</string>
+    <string name="main_page_explore_button_label">Explore</string>
+    <string name="main_page_blog_button_label">Blog</string>
+    <string name="main_page_cantonese_button_label">Useful Cantonese</string>
+    <string name="main_page_account_button_label">Account</string>
+    <!--main page string-->
+
+    <!--account and blog page title-->
+    <string name="account_page_title_label">Account</string>
+    <string name="blog_page_title_label">Blog</string>
+    <string name="blog_page_subtitle">This is the undeveloped blog page.</string>
+    <string name="account_page_subtitle">This is the undeveloped account page.</string>
+    <!--account and blog page title-->
+
+    <!--cantonese page string-->
+    <string name="useful_cantonese_page_title">Useful Cantonese</string>
+    <!--cantonese page string-->
+
+    <!--explore page string-->
+    <string name="explore_page_title">Explore</string>
+    <!--explore page string-->
+
+    <string name="save_button_des">This is the save button</string>
+
+    <!--attraction list item string-->
+    <string name="attraction_item_image_des">The image about the attraction</string>
+    <string name="default_attraction_name">Default Name</string>
+    <string name="default_attraction_location">Default Location</string>
+    <!--attraction list item string-->
+
+    <!--cantonese list item string-->
+    <string name="default_cantonese_string">Default Cantonese</string>
+    <string name="default_english_string">Default English</string>
+    <!--cantonese list item string-->
+
+    <!--hotel list item string-->
+    <string name="hotel_list_item_image_des">The image about the hotel</string>
+    <string name="default_hotel_name_label">Default Hotel Name</string>
+    <string name="default_hotel_location_label">Default Hotel Location</string>
+    <string name="default_hotel_price_string">Default Hotel Price</string>
+    <!--hotel list item string-->
+
+    <!--shopping mall list item string-->
+    <string name="shopping_mall_list_item_image_des">The image about the shopping mall</string>
+    <string name="default_shopmall_name_string">Default ShopMall Name</string>
+    <string name="default_shopmall_location_string">Default ShopMall Location</string>
+    <string name="default_number">0</string>
+    <string name="default_shopping_mall_opening_time_string">Default Shopping Mall Opening Time</string>
+    <!--shopping mall list item string-->
+
+    <!--theme park list item string-->
+    <string name="theme_park_list_item_image_des">The image about the theme park</string>
+    <string name="default_park_location_string">Default Park Location</string>
+    <string name="default_park_name_string">Default Park Name</string>
+    <string name="default_time">0:00 - 24:00</string>
+    <!--theme park list item string-->
+
+</resources>

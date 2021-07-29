@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hotel_list_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/inner_item_padding"
+    android:paddingBottom="@dimen/inner_item_padding">
+
+    <ImageView
+        android:id="@+id/hotel_cover_image_view"
+        android:layout_width="@dimen/list_item_cover_height"
+        android:layout_height="@dimen/list_item_cover_width"
+        android:layout_gravity="center"
+        android:contentDescription="@string/hotel_list_item_image_des"
+        android:padding="@dimen/inner_item_padding"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hotel_item_title_text_view"
+            style="@style/list_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/default_hotel_name_label" />
+
+        <TextView
+            android:id="@+id/hotel_item_location_text_view"
+            style="@style/list_item_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/default_hotel_location_label" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/hotel_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/save_button_des"
+            android:src="@drawable/ic_baseline_outlined_flag_24" />
+
+        <TextView
+            android:id="@+id/hotel_item_price_text_view"
+            style="@style/list_item_others"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="end"
+            android:text="@string/default_number" />
+
+    </RelativeLayout>
+
+</LinearLayout>

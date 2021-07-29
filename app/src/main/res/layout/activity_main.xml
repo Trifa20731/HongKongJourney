@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/base_layout_margin"
+    android:orientation="vertical"
+    tools:context=".control.MainActivity">
+
+    <TextView
+        android:id="@+id/main_page_title_text_view"
+        style="@style/highlight_title_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_page_title" />
+
+    <Button
+        android:id="@+id/explore_button"
+        style="@style/highlight_title_white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/inner_item_margin"
+        android:padding="@dimen/inner_item_padding"
+        android:background="@drawable/button1_background"
+        android:text="@string/main_page_explore_button_label" />
+
+    <Button
+        android:id="@+id/blog_button"
+        style="@style/highlight_title_white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/inner_item_margin"
+        android:padding="@dimen/inner_item_padding"
+        android:background="@drawable/button2_background"
+        android:text="@string/main_page_blog_button_label" />
+
+    <Button
+        android:id="@+id/cantonese_button"
+        style="@style/highlight_title_white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/inner_item_margin"
+        android:padding="@dimen/inner_item_padding"
+        android:background="@drawable/button3_background"
+        android:text="@string/main_page_cantonese_button_label" />
+
+    <Button
+        android:id="@+id/account_button"
+        style="@style/highlight_title_white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/inner_item_margin"
+        android:padding="@dimen/inner_item_padding"
+        android:background="@drawable/button4_background"
+        android:text="@string/main_page_account_button_label" />
+
+</LinearLayout>
